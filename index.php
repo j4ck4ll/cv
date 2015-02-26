@@ -36,7 +36,7 @@
   	<div class="media">
   		<div class="media-left media-middle">
   			<a href="#">
-  				<img src="images/teo.jpg" class="media-object img-responsive" style="height:200px; width:300px">    
+  				<img id="pic" src="images/teo.jpg" class="media-object img-responsive" style="height:200px; width:300px">    
   			</a>
   		</div>
 	  	<div class="media-body">
@@ -50,7 +50,7 @@
   	</div>
 </div>
 <div class="row">
-    <div class="col-md-4 col-md-offset-1 well text-left">       
+    <div class="col-md-4 col-md-offset-1 well text-left toggle">       
     	<h3><span class="label label-info"><i class="glyphicon glyphicon-user"></i> OSEBNI PODATKI</span></h3>
     	<ul>
 	    	<li><i class="glyphicon glyphicon-certificate"></i> Rojen 28.6.1987 v Sarajevu, BiH</li>
@@ -62,8 +62,8 @@
     </div>
 
 
-    <div class="col-md-4 col-md-offset-1 well text-left">
-    	<h3><span class="label label-info"><i class="glyphicon glyphicon-book"></i> IZOBRAZBA</span></h3>
+    <div class="col-md-4 col-md-offset-1 well text-left toggle">
+    	<h3 class="toggle"><span class="label label-info"><i class="glyphicon glyphicon-book"></i> IZOBRAZBA</span></h3>
     <ul>
     	<li><i class="glyphicon glyphicon-ok"></i> Osnovna šola Antona Aškerca Velenje</li>
     	<li><i class="glyphicon glyphicon-ok"></i> Gimnazija Velenje</li>
@@ -72,7 +72,7 @@
     </ul>
     </div>
 
-    <div class="col-md-9 col-md-offset-1 well text-left">
+    <div class="col-md-9 col-md-offset-1 well text-left toggle">
     <h3><span class="label label-info"><i class="glyphicon glyphicon-wrench"></i> IZKUŠNJE</span></h3>
     <ul>
     	<li><h4>GORENJE INFORMATIKA - Praktično izobraževanje (400 ur )</h4></li>
@@ -106,6 +106,7 @@
     			<li><p>Razvoz pizz (Pizzerija Velun Velenje)</p></li>
     			<li><p>Delo v tiskarni (Eurograf Velenje)</p></li>
     			<li><p>Priprava in strežba jedi (McDonald's Velenje)</p></li>
+          <li><p>AAAAAAAAAAAAAAAAAA</p></li>
     		</ul>
 
 </ul>
@@ -119,5 +120,7 @@
     </body>    
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Custom script -->
+    <script type= "text/javascript" src="scripts/script.js"></script>
   </body>
 </html>
